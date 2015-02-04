@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="menu_test.css">
+</head>
+<body>
+	<div class="top" id="home">	
+		<div class="header">
+			<div class="container" id="bar"></div>	
+			</div>
+
+			<div class="menu_icon"></div>
+			<div class="menu" id="menu">
+				<ul class="list flat" id="list">
+					<li>Home</li>
+					<li>Start</li>
+					<li>About</li>
+				</ul>
+			</div>
+			
+
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Welcome to<br> Rock, Paper, Scissors!</h1>
+			</div>
+			<div class="mid_container">
+				<form class="col-md-4" id="form" name="RPS Form" action="" method="get">
+					<div class="input-group">
+						<ul id="form">
+							<li><br><input type="text" id="name" name="name" class="form-control" placeholder="Name" value=""><button class="btn btn-default" id="name_btn" type="button" name="name_button" onClick="welcomeName(this.form)">Hello</button></li>
+							<br>
+							<hr>
+							<br>
+							<li><input type="text" id="userChoice" name="userChoice" class="form-control" placeholder="Rock, Paper, or Scissors" value=""><button class="btn btn-default" id="userChoice_btn" type="button" name="userChoiceButton" id="submitButton" onClick="choose(this.form)">Go!</button></li>
+						</ul>
+					</div>			
+				</form>
+				<div class="col-md-4" id="result_box">
+					<ul id="list_box">
+	
+					</ul>	
+				</div>
+				<div class="col-md-4" id="counter">
+					<ul id="counter_list">
+						
+					</ul>
+				</div>
+
+			</div>	
+		</div>
+	</div>	
+</body>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="menu_test.js"></script>
+</html>
